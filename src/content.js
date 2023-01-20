@@ -1,0 +1,1 @@
+alert(`Document has ${document.body.innerText.split(/\s/).length} words`);

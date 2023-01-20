@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Word Counter",
+    "version": "1.0",
+    "description": "Read the contents of the page and count the words.",
+    "background": {
+        "service_worker": "src/index.js"
+    },
+    "action" : {
+        "default_icon" : "images/icon.png",
+        "default_title": "Click to count the words"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
